@@ -117,4 +117,5 @@ plato: {
 
 ## Release History
 
+ - 0.1.1 removed debug output 
  - 0.1.0 initial release

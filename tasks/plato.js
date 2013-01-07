@@ -27,8 +27,6 @@ module.exports = function(grunt) {
       delete options.jshint.options.globals;
     }
 
-    console.log(options);
-
     var done = this.async();
 
     plato.inspect(this.file.src, this.file.dest, options, function(){
