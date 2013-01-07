@@ -2,6 +2,8 @@
 
 > Task to generate static analysis reports via plato
 
+For more information on plato, see the [docs](https://github.com/jsoverson/plato) and [some](http://jsoverson.github.com/plato/examples/marionette/) [example](http://jsoverson.github.com/plato/examples/jquery/) [reports](http://jsoverson.github.com/plato/examples/grunt/)
+
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
 
