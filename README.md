@@ -1,0 +1,120 @@
+# grunt-plato
+
+> Task to generate static analysis reports via plato
+
+## Getting Started
+_If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
+
+From the same directory as your project's [Gruntfile][Getting Started] and [package.json][], install this plugin with the following command:
+
+```bash
+npm install grunt-plato --save-dev
+```
+
+Once that's done, add this line to your project's Gruntfile:
+
+```js
+grunt.loadNpmTasks('grunt-plato');
+```
+
+[grunt]: http://gruntjs.com/
+[Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md
+[package.json]: https://npmjs.org/doc/json.html
+
+## Overview
+In your project's Gruntfile, add a section named `plato` to the data object passed into `grunt.initConfig()`.
+
+```js
+grunt.initConfig({
+  plato: {
+    options: {
+      // Task-specific options go here.
+    },
+    your_target: {
+      // Target-specific file lists and/or options go here.
+    },
+  },
+})
+```
+
+## Options
+
+### options.jshint
+Type: `Object`
+Default value: unset
+
+A jshintrc style object specifying jshint options, see [JSHint docs](http://www.jshint.com/docs/)
+
+### options.complexity
+Type: `Object`
+Default value: unset
+
+A series of options passed to complexity-report, see [Phil Booth's complexity-report](https://github.com/philbooth/complexityReport.js)
+
+## Usage Examples
+
+### Using Default Options
+
+```js
+grunt.initConfig({
+  plato: {
+    files: {
+      'report/output/directory': ['src/**/*.js', 'test/**/*.js'],
+    },
+  },
+})
+```
+
+### Custom complexity options
+
+```js
+plato: {
+  your_task: {
+    options : {
+      complexity : {
+        logicalor : false,
+        switchcase : false,
+        forin : true,
+        trycatch : true
+      }
+    },
+    files: {
+      'reports': ['src/**/*.js'],
+    },
+  }
+}
+```
+
+### Using a .jshintrc file
+
+```js
+plato: {
+  your_task: {
+    options : {
+      jshint : grunt.file.readJSON('.jshintrc')
+    },
+    files: {
+      'reports': ['src/**/*.js'],
+    },
+  },
+}
+```
+
+### Disabling jshint reporting
+
+```js
+plato: {
+  your_task: {
+    options : {
+      jshint : false
+    },
+    files: {
+      'reports': ['src/**/*.js'],
+    },
+  },
+}
+```
+
+## Release History
+
+ - 0.1.0 initial release
