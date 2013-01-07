@@ -35,7 +35,12 @@
     "grunt": "~0.4.0rc4"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "plato",
+    "reports",
+    "visualization",
+    "complexity",
+    "analysis"
   ],
   "dependencies": {
     "plato": "~0.4.0"
