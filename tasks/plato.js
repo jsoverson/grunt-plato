@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 
     var done = this.async();
 
-    plato.inspect(this.file.src, this.file.dest, options, function(){
+    plato.inspect(this.filesSrc, this.files[0].dest, options, function(){
       done();
     });
 
