@@ -2,7 +2,7 @@
   "name": "grunt-plato",
   "description": "Generate complexity analysis reports with plato",
   "version": "0.1.3",
-  "homepage": "https://github.com/joverson/grunt-plato",
+  "homepage": "https://github.com/jsoverson/grunt-plato",
   "author": {
     "name": "Jarrod Overson",
     "email": "jsoverson@gmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/joverson/grunt-plato.git"
+    "url": "git://github.com/jsoverson/grunt-plato.git"
   },
   "bugs": {
-    "url": "https://github.com/joverson/grunt-plato/issues"
+    "url": "https://github.com/jsoverson/grunt-plato/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/joverson/grunt-plato/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jsoverson/grunt-plato/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
