@@ -119,5 +119,7 @@ plato: {
 
 ## Release History
 
- - 0.1.1 removed debug output 
+ - 0.1.3 updated dependencies
+ - 0.1.2 updated for grunt 0.4.0rc5
+ - 0.1.1 removed debug output
  - 0.1.0 initial release
