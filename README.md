@@ -60,8 +60,10 @@ A series of options passed to complexity-report, see [Phil Booth's complexity-re
 ```js
 grunt.initConfig({
   plato: {
-    files: {
-      'report/output/directory': ['src/**/*.js', 'test/**/*.js'],
+    your_task: {
+      files: {
+        'report/output/directory': ['src/**/*.js', 'test/**/*.js'],
+      }
     },
   },
 })
