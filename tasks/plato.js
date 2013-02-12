@@ -16,7 +16,9 @@ module.exports = function(grunt) {
 
     var options = this.options({
       jshint: {},
-      complexity: {}
+      complexity: {
+        newmi : true
+      }
     });
 
     if (options.jshint && !options.jshint.options) {
