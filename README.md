@@ -121,6 +121,7 @@ plato: {
 
 ## Release History
 
+ - 0.1.5 updating deps for grunt 0.4.0 final
  - 0.1.4 defaulting to new maintainability index
  - 0.1.3 updated dependencies
  - 0.1.2 updated for grunt 0.4.0rc5
