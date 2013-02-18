@@ -29,10 +29,10 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "0.1.1rc6",
-    "grunt-contrib-clean": "0.4.0rc6",
-    "grunt-contrib-nodeunit": "~0.1.2rc6",
-    "grunt": "~0.4.0rc7"
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2"
   },
   "keywords": [
     "gruntplugin",
@@ -43,6 +43,6 @@
     "analysis"
   ],
   "dependencies": {
-    "plato": "~0.4.0"
+    "plato": "~0.4.6"
   }
 }
