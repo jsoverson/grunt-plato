@@ -1,7 +1,7 @@
 {
   "name": "grunt-plato",
   "description": "Generate complexity analysis reports with plato",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "homepage": "https://github.com/jsoverson/grunt-plato",
   "author": {
     "name": "Jarrod Overson",
@@ -43,6 +43,6 @@
     "analysis"
   ],
   "dependencies": {
-    "plato": "~0.4.6"
+    "plato": "~0.5.0"
   }
 }
