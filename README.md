@@ -119,6 +119,22 @@ plato: {
 }
 ```
 
+### Excluding files matching a specific regexp
+
+```js
+plato: {
+  your_task: {
+    options : {
+      exclude: /\.min\.js$/    # excludes source files finishing with ".min.js"
+    },
+    files: {
+      'reports': ['src/**/*.js'],
+    },
+  },
+}
+```
+
+
 ## Release History
 
  - 0.2.0 bumped for plato 0.5.0
