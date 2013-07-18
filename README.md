@@ -134,6 +134,20 @@ plato: {
 }
 ```
 
+### Excluding files from a file (will overwrite exclude option)
+
+```js
+plato: {
+  your_task: {
+    options : {
+      excludeFromFile: '.jshintignore'    # excludes source files placed in .jshintignore
+    },
+    files: {
+      'reports': ['src/**/*.js'],
+    },
+  },
+}
+```
 
 ## Release History
 
