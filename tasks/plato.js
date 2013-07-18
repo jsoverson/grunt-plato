@@ -43,7 +43,7 @@ module.exports = function(grunt) {
           regex += file + '|';
         }
 
-        regex = regex.substr(0, regex.length - 2);
+        regex = regex.substr(0, regex.length - 1);
         return new RegExp(regex);
       })();
     }
