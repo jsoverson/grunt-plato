@@ -46,7 +46,6 @@ module.exports = function(grunt) {
         regex = regex.substr(0, regex.length - 2);
         return new RegExp(regex);
       })();
-      console.log('options.exclude: ' + options.exclude);
     }
 
     var done = this.async();
