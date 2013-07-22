@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 
         for (var i = 0, n = files.length; i < n; i++) {
           file = files[i];
-          file = file.replace('/', '\\/').replace('.', '\\.');
+          file = file.replace('/', '\\/').replace('.', '\\.').replace('*', '\\*');
           regex += file + '|';
         }
 
