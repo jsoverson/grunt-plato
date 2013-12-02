@@ -125,7 +125,7 @@ plato: {
 plato: {
   your_task: {
     options : {
-      exclude: /\.min\.js$/    # excludes source files finishing with ".min.js"
+      exclude: /\.min\.js$/    // excludes source files finishing with ".min.js"
     },
     files: {
       'reports': ['src/**/*.js'],
