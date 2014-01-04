@@ -34,8 +34,8 @@ grunt.initConfig({
     },
     your_target: {
       // Target-specific file lists and/or options go here.
-    },
-  },
+    }
+  }
 })
 ```
 
@@ -62,10 +62,10 @@ grunt.initConfig({
   plato: {
     your_task: {
       files: {
-        'report/output/directory': ['src/**/*.js', 'test/**/*.js'],
+        'report/output/directory': ['src/**/*.js', 'test/**/*.js']
       }
-    },
-  },
+    }
+  }
 })
 ```
 
@@ -84,7 +84,7 @@ plato: {
     },
     files: {
       'reports': ['src/**/*.js'],
-    },
+    }
   }
 }
 ```
@@ -99,8 +99,8 @@ plato: {
     },
     files: {
       'reports': ['src/**/*.js'],
-    },
-  },
+    }
+  }
 }
 ```
 
@@ -114,8 +114,8 @@ plato: {
     },
     files: {
       'reports': ['src/**/*.js'],
-    },
-  },
+    }
+  }
 }
 ```
 
@@ -129,8 +129,8 @@ plato: {
     },
     files: {
       'reports': ['src/**/*.js'],
-    },
-  },
+    }
+  }
 }
 ```
 
