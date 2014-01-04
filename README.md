@@ -83,7 +83,7 @@ plato: {
       }
     },
     files: {
-      'reports': ['src/**/*.js'],
+      'reports': ['src/**/*.js']
     }
   }
 }
@@ -98,7 +98,7 @@ plato: {
       jshint : grunt.file.readJSON('.jshintrc')
     },
     files: {
-      'reports': ['src/**/*.js'],
+      'reports': ['src/**/*.js']
     }
   }
 }
@@ -113,7 +113,7 @@ plato: {
       jshint : false
     },
     files: {
-      'reports': ['src/**/*.js'],
+      'reports': ['src/**/*.js']
     }
   }
 }
@@ -128,7 +128,7 @@ plato: {
       exclude: /\.min\.js$/    // excludes source files finishing with ".min.js"
     },
     files: {
-      'reports': ['src/**/*.js'],
+      'reports': ['src/**/*.js']
     }
   }
 }
