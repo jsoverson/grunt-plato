@@ -43,6 +43,6 @@
     "analysis"
   ],
   "dependencies": {
-    "plato": "~0.6.0"
+    "plato": "~1.0.0"
   }
 }
