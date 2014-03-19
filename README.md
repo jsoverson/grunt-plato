@@ -34,8 +34,8 @@ grunt.initConfig({
     },
     your_target: {
       // Target-specific file lists and/or options go here.
-    },
-  },
+    }
+  }
 })
 ```
 
@@ -62,10 +62,10 @@ grunt.initConfig({
   plato: {
     your_task: {
       files: {
-        'report/output/directory': ['src/**/*.js', 'test/**/*.js'],
+        'report/output/directory': ['src/**/*.js', 'test/**/*.js']
       }
-    },
-  },
+    }
+  }
 })
 ```
 
@@ -83,8 +83,8 @@ plato: {
       }
     },
     files: {
-      'reports': ['src/**/*.js'],
-    },
+      'reports': ['src/**/*.js']
+    }
   }
 }
 ```
@@ -98,9 +98,9 @@ plato: {
       jshint : grunt.file.readJSON('.jshintrc')
     },
     files: {
-      'reports': ['src/**/*.js'],
-    },
-  },
+      'reports': ['src/**/*.js']
+    }
+  }
 }
 ```
 
@@ -113,9 +113,9 @@ plato: {
       jshint : false
     },
     files: {
-      'reports': ['src/**/*.js'],
-    },
-  },
+      'reports': ['src/**/*.js']
+    }
+  }
 }
 ```
 
@@ -128,9 +128,9 @@ plato: {
       exclude: /\.min\.js$/    // excludes source files finishing with ".min.js"
     },
     files: {
-      'reports': ['src/**/*.js'],
-    },
-  },
+      'reports': ['src/**/*.js']
+    }
+  }
 }
 ```
 
