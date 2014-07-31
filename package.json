@@ -8,6 +8,13 @@
     "email": "jsoverson@gmail.com",
     "url": "http://jarrodoverson.com/"
   },
+  "contributors": [
+    {
+      "name": "Sergio Ruiz",
+      "email": "serginator@gmail.com",
+      "url": "http://www.serginator.com/"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jsoverson/grunt-plato.git"

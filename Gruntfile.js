@@ -65,6 +65,15 @@ module.exports = function(grunt) {
           'tmp/no_jshintrc': ['tasks/**/*.js', 'test/**/*.js'],
         },
       },
+      excluding_a_file: {
+        options: {
+          jshint : false,
+          excludeFromFile: 'test/ignore_this_files_in_plato',
+        },
+        files: {
+          'tmp/excluding_a_file': ['tasks/**/*.js', 'test/**/*.js'],
+        },
+      },
     },
     nodeunit: {
       files: ['test/**/*_test.js'],
