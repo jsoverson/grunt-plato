@@ -17,10 +17,15 @@ module.exports = function(grunt) {
 
     var options = this.options({
       jshint: {},
+      jshintrc: '',
       complexity: {
         newmi : true
       }
     });
+
+    if (options.jshintrc) {
+      options.jshint = grunt.file.readJSON(grunt.config.process(options.jshintrc));
+    }
 
     if (options.jshint && !options.jshint.options) {
       options.jshint = {
