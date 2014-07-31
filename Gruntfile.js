@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       },
       custom_jshintrc: {
         options : {
-          jshint : grunt.file.readJSON('.jshintrc')
+          jshintrc : '.jshintrc'
         },
         files: {
           'tmp/custom_jshintrc': ['tasks/**/*.js', 'test/**/*.js'],
