@@ -38,14 +38,19 @@ exports.plato = {
 
     var platoRuns = Object.keys(grunt.config('plato'));
 
-    test.expect(platoRuns.length * 5);
+    test.expect(platoRuns.length * 8 - 1);
 
-    platoRuns.forEach(function(outputDir){
+    platoRuns.forEach(function(outputDir) {
       test.ok(fs.existsSync(path.join(tmp, outputDir, 'index.html')));
       test.ok(fs.existsSync(path.join(tmp, outputDir, 'report.js')));
       test.ok(fs.existsSync(path.join(tmp, outputDir, 'report.json')));
       test.ok(fs.existsSync(path.join(tmp, outputDir, 'files')));
       test.ok(fs.existsSync(path.join(tmp, outputDir, 'assets')));
+      test.ok(fs.existsSync(path.join(tmp, outputDir, 'files', 'asks_plato_js')));
+      if (outputDir !== 'excluding_a_file') {
+        test.ok(fs.existsSync(path.join(tmp, outputDir, 'files', 'est_file_for_exclusion_js')));
+      }
+      test.ok(fs.existsSync(path.join(tmp, outputDir, 'files', 'est_plato_test_js')));
     });
 
     console.log();
