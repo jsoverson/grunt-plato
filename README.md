@@ -95,7 +95,7 @@ plato: {
 plato: {
   your_task: {
     options : {
-      jshint : grunt.file.readJSON('.jshintrc')
+      jshintrc: '.jshintrc'
     },
     files: {
       'reports': ['src/**/*.js']
