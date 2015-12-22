@@ -50,6 +50,6 @@
     "analysis"
   ],
   "dependencies": {
-    "plato": "git@github.com:deedubs/es6-plato.git"
+    "plato": "git@github.com:Olpays/es6-plato.git"
   }
 }
