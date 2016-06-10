@@ -74,6 +74,11 @@ module.exports = function(grunt) {
           'tmp/excluding_a_file': ['tasks/**/*.js', 'test/**/*.js'],
         },
       },
+      custom_date: {
+        options: {
+          date: '2016/06/10',
+        },
+      },
     },
     nodeunit: {
       files: ['test/**/*_test.js'],
