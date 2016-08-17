@@ -94,6 +94,6 @@ module.exports = function(grunt) {
   grunt.registerTask('test', ['jshint', 'clean', 'plato', 'nodeunit']);
 
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'test']);
+  grunt.registerTask('default', ['test']);
 
 };

@@ -27,6 +27,10 @@ module.exports = function(grunt) {
       options.jshint = grunt.file.readJSON(grunt.config.process(options.jshintrc));
     }
 
+    if (options.eslintrc) {
+      options.eslint = grunt.file.readJSON(grunt.config.process(options.eslintrc));
+    }
+
     if (options.jshint && !options.jshint.options) {
       options.jshint = {
         options : options.jshint,
